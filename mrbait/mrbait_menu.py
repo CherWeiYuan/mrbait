@@ -298,15 +298,15 @@ class parseArgs():
 		self.dustMask=False
 
 		#Bait params
-		self.blen=80
+		self.blen=120
 		self.win_width=None
 		self.win_shift=1
 		self.mult_reg=0 #boolean
 		self.min_mult=None
-		self.var_max=0
-		self.numN=0
+		self.var_max=7
+		self.numN=7
 		self.callN=0 #boolean
-		self.numG=0
+		self.numG=7
 		self.callG=0 #boolean
 		self.anchor=None
 
